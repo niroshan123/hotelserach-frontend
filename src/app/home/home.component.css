@@ -1,0 +1,33 @@
+
+.img-fluid {
+    
+    width: 100%;
+    height: 100vh;
+    background: url('../../assets/third.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+ }
+ /* .text-block {
+     text-align: center;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+  .text-block {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    background: rgba(0, 0, 0, 0.8);
+    font-family: Arial,sans-serif;
+    color: #fff;
+    width: 60%; /* Set the width of the positioned div */
+}
